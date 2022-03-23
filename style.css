@@ -88,10 +88,12 @@ p {
 
 .buttons button:hover {
     background-color: var(--Orange);
+    border: none;
 }
 
 .buttons button.active {
     background-color: var(--Light-Grey);
+    border: none;
 }
 
 
