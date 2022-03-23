@@ -89,9 +89,11 @@ p {
     background-color: var(--Orange);
 }
 
-.buttons .active {
+.buttons button.active {
     background-color: var(--Light-Grey);
 }
+
+
 
 .submit button {
     border: none;
