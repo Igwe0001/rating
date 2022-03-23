@@ -77,6 +77,7 @@ p {
 
 .buttons button {
     border: none;
+    display: inline-block;
     color: var(--White);
     background-color: var(--Medium-Grey);
     padding: 1rem 1.2rem;
