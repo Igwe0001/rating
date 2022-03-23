@@ -76,7 +76,9 @@ p {
   background-color: var(--Medium-Grey);
   border: none;
   color: var(--White);
-  padding: 20px;
+  /* padding: 20px; */
+  width: 48px;
+  height: 48px;
   text-align: center;
   outline: 0;
   text-decoration: none;
@@ -101,6 +103,7 @@ p {
   border: none;
   text-decoration: none;
   cursor: pointer;
+  outline: none;
   background-color: var(--Orange);
   padding: 15px;
   border-radius: 20px;
@@ -123,6 +126,11 @@ p {
   height: 85%;
   text-align: center;
   display: none;
+}
+
+.thanks img {
+  display: block;
+  margin: auto;
 }
 
 .message {

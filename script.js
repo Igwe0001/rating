@@ -14,6 +14,10 @@ buttons.forEach(button => {
 });
 
 submit.addEventListener('click', () => {
-    ratings.style.display = 'none';
-    thanks.style.display = 'block';
+    if (span.innerHTML == '') {
+        ratings.style.display = 'block'
+    } else {
+        ratings.style.display = 'none';
+        thanks.style.display = 'block';
+    }
 })
