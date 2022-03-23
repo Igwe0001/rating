@@ -77,6 +77,8 @@ p {
 
 .buttons button {
     border: none;
+    text-decoration: none;
+    cursor: pointer;
     display: inline-block;
     color: var(--White);
     background-color: var(--Medium-Grey);
@@ -100,6 +102,8 @@ p {
 
 .submit button {
     border: none;
+    text-decoration: none;
+    cursor: pointer;
     background-color: var(--Orange);
     padding: 15px ;
     border-radius: 20px;
